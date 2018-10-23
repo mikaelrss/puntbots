@@ -1,0 +1,9 @@
+{
+  "name": "puntscheduler",
+  "alias": "puntscheduler",
+  "public": false,
+  "env": {
+    "REPORT_URL": "https://puntreport.now.sh",
+    "PUNT_SECRET": "@punt-report-secret"
+  }
+}

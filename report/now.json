@@ -1,0 +1,15 @@
+{
+  "name": "puntreport",
+  "alias": "puntreport",
+  "public": false,
+  "type": "docker",
+  "features": {
+    "cloud": "v2"
+  },
+  "env": {
+    "SCRAPER_URL": "https://npi-scrapi.now.sh",
+    "SLACK_URL": "@punt-report-slack-url",
+    "TEAM_NAME_URL": "https://puntteamnam.now.sh",
+    "PUNT_SECRET": "@punt-report-secret"
+  }
+}

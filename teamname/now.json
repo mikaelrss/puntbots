@@ -1,0 +1,13 @@
+{
+  "name": "puntteamname",
+  "alias": "puntteamname",
+  "public": false,
+  "type": "docker",
+  "features": {
+    "cloud": "v2"
+  },
+  "env": {
+    "PUNT_SECRET": "@punt-report-secret",
+    "MONGO_URL": "@npistats-mongo-url"
+  }
+}

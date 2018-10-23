@@ -1,0 +1,16 @@
+{
+  "name": "puntreport",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mikael Solstad <mikaelrinosolstad@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js",
+    "deploy": "now && now alias && now rm puntreport --safe"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-fetch": "^2.2.0",
+    "now-env": "^3.1.0"
+  }
+}
