@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "workspaces": [
+    "report",
+    "scheduler",
+    "teamname"
+  ],
+  "devDependencies": {
+    "now": "^11.4.6",
+    "now-env": "^3.1.0"
+  }
+}
