@@ -5,11 +5,11 @@
   "author": "Mikael Solstad <mikaelrinosolstad@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "micro ./src/index.js"
+    "start": "micro ./src/index.js",
+    "deploy": "now && now alias && now rm puntscheduler --safe"
   },
   "dependencies": {
     "micro": "^9.3.3",
-    "mongoose": "^5.3.6",
-    "now-env": "^3.1.0"
+    "mongoose": "^5.3.6"
   }
 }

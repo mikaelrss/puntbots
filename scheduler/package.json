@@ -6,15 +6,12 @@
   "license": "MIT",
   "scripts": {
     "start": "node ./index.js",
-    "deploy": "now && now alias && now rm puntscheduler --safe && now scale puntscheduler.now.sh 1 1"
+    "deploy": "now && now alias && now rm puntscheduler --safe"
   },
   "dependencies": {
     "express": "^4.16.4",
     "node-cron": "^2.0.3",
-    "node-fetch": "^2.2.0",
-    "now-env": "^3.1.0"
+    "node-fetch": "^2.2.0"
   },
-  "devDependencies": {
-    "now": "^11.4.6"
-  }
+  "devDependencies": {}
 }
